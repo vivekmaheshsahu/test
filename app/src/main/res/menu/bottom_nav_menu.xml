@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_recents"
+        android:enabled="true"
+        android:icon="@drawable/ic_summaru"
+        android:title="Summary"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/ic_score_card"
+        android:title="Scorecard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_nearby"
+        android:enabled="true"
+        android:icon="@drawable/ic_commentary"
+        android:title="Commentary"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/match"
+        android:title="Match Info"
+        android:enabled="true"
+        android:icon="@drawable/ic_match_info"
+        />
+
+</menu>
